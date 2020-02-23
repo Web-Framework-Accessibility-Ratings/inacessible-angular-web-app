@@ -5,6 +5,7 @@ import { InfoRelationshipsComponent } from './info-relationships/info-relationsh
 import { MeaningfulSequenceComponent } from './meaningful-sequence/meaningful-sequence.component';
 import { InputPurposeComponent } from './input-purpose/input-purpose.component';
 import { IdentifyPurposeComponent } from './identify-purpose/identify-purpose.component';
+import { UseOfColorComponent } from './use-of-color/use-of-color.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'identifyPurpose',
     component: IdentifyPurposeComponent
+  },
+  {
+    path: 'useOfColor',
+    component: UseOfColorComponent
   }
 ];
 
