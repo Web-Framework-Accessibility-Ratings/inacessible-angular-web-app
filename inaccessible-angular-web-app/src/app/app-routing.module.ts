@@ -12,6 +12,8 @@ import { TextResizeComponent } from './text-resize/text-resize.component';
 import { ImageOfTextComponent } from './image-of-text/image-of-text.component';
 import { ColorContrastEnhancedComponent } from './color-contrast-enhanced/color-contrast-enhanced.component';
 import { VisualPresentationComponent } from './visual-presentation/visual-presentation.component';
+import { NonTextContrastComponent } from './non-text-contrast/non-text-contrast.component';
+import { TextSpacingComponent } from './text-spacing/text-spacing.component';
 
 const routes: Routes = [
   {
@@ -61,6 +63,14 @@ const routes: Routes = [
   {
     path: 'visualPresentation',
     component: VisualPresentationComponent
+  },
+  {
+    path: 'nonTextContrast',
+    component: NonTextContrastComponent
+  },
+  {
+    path: 'textSpacing',
+    component: TextSpacingComponent
   }
 ];
 

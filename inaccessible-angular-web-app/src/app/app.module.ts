@@ -15,6 +15,8 @@ import { TextResizeComponent } from './text-resize/text-resize.component';
 import { ImageOfTextComponent } from './image-of-text/image-of-text.component';
 import { ColorContrastEnhancedComponent } from './color-contrast-enhanced/color-contrast-enhanced.component';
 import { VisualPresentationComponent } from './visual-presentation/visual-presentation.component';
+import { NonTextContrastComponent } from './non-text-contrast/non-text-contrast.component';
+import { TextSpacingComponent } from './text-spacing/text-spacing.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { VisualPresentationComponent } from './visual-presentation/visual-presen
     TextResizeComponent,
     ImageOfTextComponent,
     ColorContrastEnhancedComponent,
-    VisualPresentationComponent
+    VisualPresentationComponent,
+    NonTextContrastComponent,
+    TextSpacingComponent
   ],
   imports: [
     BrowserModule,
