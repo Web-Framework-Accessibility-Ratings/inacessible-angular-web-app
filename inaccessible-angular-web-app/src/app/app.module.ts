@@ -9,6 +9,12 @@ import { MeaningfulSequenceComponent } from './meaningful-sequence/meaningful-se
 import { InputPurposeComponent } from './input-purpose/input-purpose.component';
 import { IdentifyPurposeComponent } from './identify-purpose/identify-purpose.component';
 import { UseOfColorComponent } from './use-of-color/use-of-color.component';
+import { AudioControlComponent } from './audio-control/audio-control.component';
+import { InsufficientColorContrastMinimumComponent } from './insufficient-color-contrast-minimum/insufficient-color-contrast-minimum.component';
+import { TextResizeComponent } from './text-resize/text-resize.component';
+import { ImageOfTextComponent } from './image-of-text/image-of-text.component';
+import { ColorContrastEnhancedComponent } from './color-contrast-enhanced/color-contrast-enhanced.component';
+import { VisualPresentationComponent } from './visual-presentation/visual-presentation.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +24,13 @@ import { UseOfColorComponent } from './use-of-color/use-of-color.component';
     MeaningfulSequenceComponent,
     InputPurposeComponent,
     IdentifyPurposeComponent,
-    UseOfColorComponent
+    UseOfColorComponent,
+    AudioControlComponent,
+    InsufficientColorContrastMinimumComponent,
+    TextResizeComponent,
+    ImageOfTextComponent,
+    ColorContrastEnhancedComponent,
+    VisualPresentationComponent
   ],
   imports: [
     BrowserModule,
