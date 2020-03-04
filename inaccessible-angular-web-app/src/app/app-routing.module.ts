@@ -16,6 +16,7 @@ import { NonTextContrastComponent } from './non-text-contrast/non-text-contrast.
 import { TextSpacingComponent } from './text-spacing/text-spacing.component';
 import { KeyboardComponent } from './keyboard/keyboard.component';
 import { KeyboardTrapComponent } from './keyboard-trap/keyboard-trap.component';
+import { ShortcutComponent } from './shortcut/shortcut.component';
 
 const routes: Routes = [
   {
@@ -81,6 +82,10 @@ const routes: Routes = [
   {
     path: 'keyboardTrap',
     component: KeyboardTrapComponent
+  },
+  {
+    path: 'shortcut',
+    component: ShortcutComponent
   }
 ];
 
