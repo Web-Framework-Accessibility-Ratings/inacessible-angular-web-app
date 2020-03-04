@@ -14,6 +14,7 @@ import { ColorContrastEnhancedComponent } from './color-contrast-enhanced/color-
 import { VisualPresentationComponent } from './visual-presentation/visual-presentation.component';
 import { NonTextContrastComponent } from './non-text-contrast/non-text-contrast.component';
 import { TextSpacingComponent } from './text-spacing/text-spacing.component';
+import { KeyboardComponent } from './keyboard/keyboard.component';
 
 const routes: Routes = [
   {
@@ -71,6 +72,10 @@ const routes: Routes = [
   {
     path: 'textSpacing',
     component: TextSpacingComponent
+  },
+  {
+    path: 'keyboard',
+    component: KeyboardComponent
   }
 ];
 
