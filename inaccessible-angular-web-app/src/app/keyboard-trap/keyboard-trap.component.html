@@ -1,0 +1,13 @@
+<div>
+    <h1>A keyboard trap that you cannot escape.</h1>
+    <p>
+        <label>
+            Name
+            <input id="name" type="text" tabindex="-1" onBlur='window.setTimeout(document.getElementById("email").focus(), 0);'/>
+        </label>
+        <label>
+            Email
+            <input id="email" type="text" tabindex="-2" onBlur='window.setTimeout(document.getElementById("name").focus(), 0);'/>
+        </label>
+    </p>
+</div>

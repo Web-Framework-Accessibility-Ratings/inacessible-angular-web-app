@@ -18,6 +18,7 @@ import { VisualPresentationComponent } from './visual-presentation/visual-presen
 import { NonTextContrastComponent } from './non-text-contrast/non-text-contrast.component';
 import { TextSpacingComponent } from './text-spacing/text-spacing.component';
 import { KeyboardComponent } from './keyboard/keyboard.component';
+import { KeyboardTrapComponent } from './keyboard-trap/keyboard-trap.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { KeyboardComponent } from './keyboard/keyboard.component';
     VisualPresentationComponent,
     NonTextContrastComponent,
     TextSpacingComponent,
-    KeyboardComponent
+    KeyboardComponent,
+    KeyboardTrapComponent
   ],
   imports: [
     BrowserModule,

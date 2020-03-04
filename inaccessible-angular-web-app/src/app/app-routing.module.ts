@@ -15,6 +15,7 @@ import { VisualPresentationComponent } from './visual-presentation/visual-presen
 import { NonTextContrastComponent } from './non-text-contrast/non-text-contrast.component';
 import { TextSpacingComponent } from './text-spacing/text-spacing.component';
 import { KeyboardComponent } from './keyboard/keyboard.component';
+import { KeyboardTrapComponent } from './keyboard-trap/keyboard-trap.component';
 
 const routes: Routes = [
   {
@@ -76,6 +77,10 @@ const routes: Routes = [
   {
     path: 'keyboard',
     component: KeyboardComponent
+  },
+  {
+    path: 'keyboardTrap',
+    component: KeyboardTrapComponent
   }
 ];
 
