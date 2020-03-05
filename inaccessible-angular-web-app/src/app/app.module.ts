@@ -20,6 +20,8 @@ import { TextSpacingComponent } from './text-spacing/text-spacing.component';
 import { KeyboardComponent } from './keyboard/keyboard.component';
 import { KeyboardTrapComponent } from './keyboard-trap/keyboard-trap.component';
 import { ShortcutComponent } from './shortcut/shortcut.component';
+import { TimeAdjustableComponent } from './time-adjustable/time-adjustable.component';
+import { PauseStopHideComponent } from './pause-stop-hide/pause-stop-hide.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { ShortcutComponent } from './shortcut/shortcut.component';
     TextSpacingComponent,
     KeyboardComponent,
     KeyboardTrapComponent,
-    ShortcutComponent
+    ShortcutComponent,
+    TimeAdjustableComponent,
+    PauseStopHideComponent
   ],
   imports: [
     BrowserModule,

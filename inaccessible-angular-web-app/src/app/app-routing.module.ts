@@ -17,6 +17,7 @@ import { TextSpacingComponent } from './text-spacing/text-spacing.component';
 import { KeyboardComponent } from './keyboard/keyboard.component';
 import { KeyboardTrapComponent } from './keyboard-trap/keyboard-trap.component';
 import { ShortcutComponent } from './shortcut/shortcut.component';
+import { TimeAdjustableComponent } from './time-adjustable/time-adjustable.component';
 
 const routes: Routes = [
   {
@@ -86,6 +87,10 @@ const routes: Routes = [
   {
     path: 'shortcut',
     component: ShortcutComponent
+  },
+  {
+    path: 'timeAdjustment',
+    component: TimeAdjustableComponent
   }
 ];
 
