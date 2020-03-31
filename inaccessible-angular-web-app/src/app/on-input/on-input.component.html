@@ -1,0 +1,18 @@
+<div>
+    <script>
+        let temp=0;
+        function changeContext() {
+            if (temp < 1){
+                window.open('http://www.google.com');
+                temp = 1;
+            }
+        }
+    </script>
+    <h1>An input that opens a new window.</h1>
+    <p>
+        <label>
+            Name
+            <input id="input" type="text" (click)='changeContext()'/>
+        </label>
+    </p>
+</div>

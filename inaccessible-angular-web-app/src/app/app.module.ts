@@ -22,6 +22,22 @@ import { KeyboardTrapComponent } from './keyboard-trap/keyboard-trap.component';
 import { ShortcutComponent } from './shortcut/shortcut.component';
 import { TimeAdjustableComponent } from './time-adjustable/time-adjustable.component';
 import { PauseStopHideComponent } from './pause-stop-hide/pause-stop-hide.component';
+import { BypassBlockComponent } from './bypass-block/bypass-block.component';
+import { ThreeFlashesBelowThresholdComponent } from './three-flashes-below-threshold/three-flashes-below-threshold.component';
+import { FocusOrderComponent } from './focus-order/focus-order.component';
+import { LinkPurposeComponent } from './link-purpose/link-purpose.component';
+import { HeadingsLabelsComponent } from './headings-labels/headings-labels.component';
+import { LabelNameComponent } from './label-name/label-name.component';
+import { PageLangComponent } from './page-lang/page-lang.component';
+import { PartLangComponent } from './part-lang/part-lang.component';
+import { OnInputComponent } from './on-input/on-input.component';
+import { ConsistentNavigationComponent } from './consistent-navigation/consistent-navigation.component';
+import { ConsistentIdentificationComponent } from './consistent-identification/consistent-identification.component';
+import { ErrorIdentificationComponent } from './error-identification/error-identification.component';
+import { LabelInstructionsComponent } from './label-instructions/label-instructions.component';
+import { ParsingComponent } from './parsing/parsing.component';
+import { NameRoleValueComponent } from './name-role-value/name-role-value.component';
+import { StatusComponent } from './status/status.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +60,23 @@ import { PauseStopHideComponent } from './pause-stop-hide/pause-stop-hide.compon
     KeyboardTrapComponent,
     ShortcutComponent,
     TimeAdjustableComponent,
-    PauseStopHideComponent
+    PauseStopHideComponent,
+    BypassBlockComponent,
+    ThreeFlashesBelowThresholdComponent,
+    FocusOrderComponent,
+    LinkPurposeComponent,
+    HeadingsLabelsComponent,
+    LabelNameComponent,
+    PageLangComponent,
+    PartLangComponent,
+    OnInputComponent,
+    ConsistentNavigationComponent,
+    ConsistentIdentificationComponent,
+    ErrorIdentificationComponent,
+    LabelInstructionsComponent,
+    ParsingComponent,
+    NameRoleValueComponent,
+    StatusComponent
   ],
   imports: [
     BrowserModule,

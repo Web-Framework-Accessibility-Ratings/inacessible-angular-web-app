@@ -1,23 +1,25 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-pause-stop-hide',
-  templateUrl: './pause-stop-hide.component.html',
-  styleUrls: ['./pause-stop-hide.component.css']
+  selector: 'app-three-flashes-below-threshold',
+  templateUrl: './three-flashes-below-threshold.component.html',
+  styleUrls: ['./three-flashes-below-threshold.component.css']
 })
-export class PauseStopHideComponent implements OnInit {
+export class ThreeFlashesBelowThresholdComponent implements OnInit {
 
   constructor() { }
 
   private x: number;
   private background: any;
+  private counter: number = 100;
 
   ngOnInit(): void {
     this.background = setInterval(()=>{
       let color;
-      if (this.x === 1) {
+      if (this.x === 1 && this.counter > 0) {
           color = "#9E0000";
           this.x = 2;
+          this.counter--;
       } else {
           color = "green";
           this.x = 1;

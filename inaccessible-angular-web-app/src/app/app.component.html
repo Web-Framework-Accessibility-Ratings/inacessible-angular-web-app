@@ -14,6 +14,8 @@
   .panelStyle{
     width: 20%;
     float: left;
+    display: flex;
+    flex-direction: column;
   }
 
   .toolbar {
@@ -46,7 +48,7 @@
   <span>Welcome</span>
 </div>
 <div class="containerStyle" role="contentContainer">
-  <div class="panelStyle" role="navPanel">
+  <div id="links" role="navigation" class="panelStyle" role="navPanel">
     <button class="links" routerLink="">None</button>
     <button class="links" routerLink="textAlternatives">Text Alternatives</button>
     <button class="links" routerLink="infoRelationship">Information Relationship</button>
@@ -66,6 +68,23 @@
     <button class="links" routerLink="keyboardTrap">Keyboard Trap</button>    
     <button class="links" routerLink="shortcut">Shortcut</button>
     <button class="links" routerLink="timeAdjustment">Time adjustment</button>
+    <button class="links" routerLink="pauseStopHide">Pause Stop Hide</button>    
+    <button class="links" routerLink="threeFlashes">Three flashes or below threshold</button>
+    <button class="links" routerLink="bypassBlock">Bypass Block</button>
+    <button class="links" routerLink="focusOrder">Focus Order</button>
+    <button class="links" routerLink="linkPurpose">Link Purpose</button>
+    <button class="links" routerLink="headingLabel">Headings and Labels</button>
+    <button class="links" routerLink="labelName">Label in Name</button>
+    <button class="links" routerLink="pageLang">Page Language</button>
+    <button class="links" routerLink="partLang">Part Language</button>
+    <button class="links" routerLink="onInput">On Input</button>
+    <button class="links" routerLink="consistentNav">Consistent Navigation</button>
+    <button class="links" routerLink="consistentId">Consistent Identification</button>
+    <button class="links" routerLink="errorId">Error Identification</button>
+    <button class="links" routerLink="labelInstructions">Labels or Instructions</button>
+    <button class="links" routerLink="parsing">Parsing</button>
+    <button class="links" routerLink="nameRoleValue">Name Role Value</button>
+    <button class="links" routerLink="status">Status</button>
   </div>
   <div class="inaccessibleContentStyle" role="main">
     <router-outlet></router-outlet>
